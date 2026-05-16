@@ -1,0 +1,204 @@
+{
+    "spider": "./fm.jar",
+    "sites": [
+        {
+            "key": "糯米",
+            "name": "🧡天扬影视🧡",
+            "type": 3,
+            "api": "csp_NmyswvGuard",
+            "timeout": 15,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "文采",
+            "name": "文采秒播",
+            "type": 3,
+            "api": "csp_JpysGuard",
+            "timeout": 10,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "厂长",
+            "name": "厂长秒播",
+            "type": 3,
+            "api": "csp_NewCzGuard",
+            "timeout": 10,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "热播",
+            "name": "热播秒播",
+            "type": 3,
+            "api": "csp_AppTTGuard",
+            "timeout": 10,
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "ext": "uqGL1bNENExT7/hGxpSE5qU="
+        },
+        {
+            "key": "原创",
+            "name": "原创秒播",
+            "type": 3,
+            "api": "csp_YCyzGuard",
+            "timeout": 15,
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1
+        },
+        {
+            "key": "csp_BiliGuard1",
+            "name": "🅱️哔哩合集",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "json": "./bili/哔哩合集.json"
+            }
+        },
+        {
+            "key": "csp_BiliGuard2",
+            "name": "🅱️哔哩合集2",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "json": "./bili/哔哩合集2.json"
+            }
+        },
+        {
+            "key": "歌舞",
+            "name": "💃印度歌舞",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "json": "./bili/印度歌舞.json"
+            }
+        },
+        {
+            "key": "演唱会",
+            "name": "🌈演唱会",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "json": "./bili/哔哩演唱会.json"
+            }
+        },
+        {
+            "key": "MV",
+            "name": "🌈哔哩MV",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "json": "./bili/哔哩MTV.json"
+            }
+        },
+        {
+            "key": "PS",
+            "name": "🎉PS教程",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "json": "./bili/哔哩PS.json"
+            }
+        },
+        {
+            "key": "外语",
+            "name": "🏠外语学堂",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "json": "./bili/哔哩外语.json"
+            }
+        },
+        {
+            "key": "csp_BiliGuard幼儿",
+            "name": "📚哔哩幼儿",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "json": "./bili/幼儿乐园.json"
+            }
+        },
+        {
+            "key": "csp_BiliGuard少儿",
+            "name": "📚哔哩少儿",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "json": "./bili/少儿教育.json"
+            }
+        },
+        {
+            "key": "csp_BiliGuard小学",
+            "name": "📚哔哩小学",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "json": "./bili/小学课堂.json"
+            }
+        },
+        {
+            "key": "csp_BiliGuard初中",
+            "name": "📚哔哩初中",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "json": "./bili/初中课堂.json"
+            }
+        },
+        {
+            "key": "csp_BiliGuard高中",
+            "name": "📚哔哩高中",
+            "type": 3,
+            "api": "csp_BiliGuard",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": {
+                "json": "./bili/高中课堂.json"
+            }
+        }
+    ]
+}
